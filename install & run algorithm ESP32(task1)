@@ -1,0 +1,21 @@
+##install & run algorithm ESP32##
+
+steps:
+
+1-First step download "Arduino IDE" LINK :
+  https://www.arduino.cc/en/software .
+
+2-Second step open Arduino go to "File" --> then "Preferences"
+after that Enter LINK : https://dl.espressif.com/dl/package_esp32_index.json ,In the rectangle in front of "Additional Boards Manager URLs"
+enter "ok" .
+
+3-Third step go to "tools" --> "Board(Arduino Uno)" --> "Boards Manager" ,To search in rectangle Enter: "esp32" then " install" .
+
+-- NOW Connect the parts with a USB cable.
+4-Fourth step go to "tools" --> "Board(Arduino Uno)" --> "ESP32" --> "WEMOS D1 MINI ESP32".
+
+5-Fifth step go to "tools" --> "Port : 'COM3' " --> "COM3" .
+
+#Turn on ESP32 Lighting#
+
+1- go to "File" --> "Examples" --> "01.Basics" -->  "Blink".
